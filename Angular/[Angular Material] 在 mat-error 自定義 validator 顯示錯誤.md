@@ -1,10 +1,10 @@
-## [Angular Material] - 在 mat-error 自定義 validator 顯示錯誤
+## [Angular Material] 在 mat-error 自定義 validator 顯示錯誤
 
 #### 問題:
 
 使用了 validator(自定義的驗證器) ，檢查表單中兩個欄位的輸入值是否相等，validator 在一般的表單上會正確的顯示錯誤，但使用在 `mat-form-field` 中 `mat-error` 卻無法正確顯示錯誤。
 
-![123](C:\Users\jamiesu\Documents\我的文件\Notes\123.png)
+![mat-error-00](圖片/mat-error-00.png)
 
 #### 原因 :  
 
@@ -30,9 +30,7 @@
 
 也就是說寫在 `mat-error` 的錯誤訊息無法顯示的原因，有可能是不在這三種狀態下所以沒有顯示，雖然 validator 有回傳錯誤。
 
-經過了幾次嘗試後，發現控制 `confirmPassword`  控制元件 (FromControl) 的狀態一直是"有效"，而 validator 驗證完的錯誤結果是回傳給 `confirmPassword` 的爸爸 `passwordForm` ，`passwordForm` 控制元件 (FromGroup)的狀態是 "無效"，但是顯示錯誤的條件是 **`confirmPassword` 的狀態要是"無效"** ，這就是問題的所在。![未命名](C:\Users\jamiesu\Documents\我的文件\Notes\未命名.png)
-
-
+經過了幾次嘗試後，發現控制 `confirmPassword`  控制元件 (FromControl) 的狀態一直是"有效"，而 validator 驗證完的錯誤結果是回傳給 `confirmPassword` 的爸爸 `passwordForm` ，`passwordForm` 控制元件 (FromGroup)的狀態是 "無效"，但是顯示錯誤的條件是 **`confirmPassword` 的狀態要是"無效"** ，這就是問題的所在。![mat-error-01](圖片/mat-error-01.png)
 
 #### 參考:
 
@@ -41,8 +39,6 @@
 [MatError & Cross-Field Validators In Angular Material 7](https://itnext.io/materror-cross-field-validators-in-angular-material-7-97053b2ed0cf)
 
 -------------------------
-
-
 
 #### 出現問題: 
 
@@ -127,7 +123,7 @@ export const confirmPasswordValidator: ValidatorFn = (control: FormGroup): Valid
 }
 ```
 
-
+---
 
 #### 解決方法:
 
