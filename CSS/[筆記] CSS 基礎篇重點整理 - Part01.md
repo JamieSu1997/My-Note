@@ -119,10 +119,3 @@ p {
    
 }
 ```
-
-------
-
-#### CSS 其他文章
-
-* [[筆記]CSS Box Model 篇重點整理 - Part02](C:\Users\jamiesu\Documents\我的文件\Notes\css\[筆記] CSS Box Model 篇重點整理 - Part02)
-* [[筆記]CSS Element Position 篇重點整理 - Part03](C:\Users\jamiesu\Documents\我的文件\Notes\css\[筆記]CSS Element Position 篇重點整理 - Part03)
