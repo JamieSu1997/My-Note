@@ -13,7 +13,7 @@
 
 * [[筆記] CSS 基礎篇重點整理 - Part01](https://github.com/JamieSu1997/My-Note/blob/master/CSS/%5B%E7%AD%86%E8%A8%98%5D%20CSS%20%E5%9F%BA%E7%A4%8E%E7%AF%87%E9%87%8D%E9%BB%9E%E6%95%B4%E7%90%86%20-%20Part01.md)
 * [[筆記] CSS Box Model 篇重點整理 - Part02](https://github.com/JamieSu1997/My-Note/blob/master/CSS/%5B%E7%AD%86%E8%A8%98%5D%20CSS%20Box%20Model%20%E7%AF%87%E9%87%8D%E9%BB%9E%E6%95%B4%E7%90%86%20-%20Part02.md)
-* [[筆記] CSS Element Position 篇重點整理 - P](https://github.com/JamieSu1997/My-Note/blob/master/CSS/%5B%E7%AD%86%E8%A8%98%5D%20CSS%20Element%20Position%20%E7%AF%87%E9%87%8D%E9%BB%9E%E6%95%B4%E7%90%86%20-%20Part03.md)
+* [[筆記] CSS Element Position 篇重點整理 - Part03](https://github.com/JamieSu1997/My-Note/blob/master/CSS/%5B%E7%AD%86%E8%A8%98%5D%20CSS%20Element%20Position%20%E7%AF%87%E9%87%8D%E9%BB%9E%E6%95%B4%E7%90%86%20-%20Part03.md)
 
 --- 
 
