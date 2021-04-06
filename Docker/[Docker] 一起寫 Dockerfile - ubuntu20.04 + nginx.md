@@ -108,7 +108,7 @@ $ docker run -p 80:80 ub_nginx_image
 
 打開瀏覽器輸入 `http://my-domain`，跑出`Hello World !!` 成功。
 
-![image-20210323140325651](C:\Users\jamiesu\Documents\我的文件\Notes\docker\Docker 圖\Hello_World.png)
+![Hello_World](圖片/Hello_World.png)
 
 先挖個坑，提醒一下自己。之後要把以下內容補齊 ~
  * nginx.conf 設定檔寫法
