@@ -6,7 +6,7 @@
 
 模型架構圖 : 
 
-![box-model](圖片\Box-Model.png)
+![box-model](圖片/Box-Model.png)
 
 - **Content** - 實際上顯示 element 內的內容的地方，像是文字或圖片。
 
@@ -20,9 +20,7 @@
 
 ---
 
-
-
-#### [使用 margin + auto 置中](https://stackblitz.com/edit/margin-auto-to-center?file=src/app/app.component.css)
+#### [使用 margin + auto 置中](https://stackblitz.com/edit/margin-auto-to-center?file=src/app/app.component.css) :link:
 
   ```css
 /* select <div> element with class="banner" */
@@ -50,7 +48,7 @@ div.banner {
 }
 ```
 
-![margin-collapse](圖片\Margin-collapse.png)
+![margin-collapse](圖片/Margin-collapse.png)
 
 
 
@@ -66,7 +64,7 @@ border-box : 會讓 element 實際長度和寬度 = 設定的長寬(width / heig
 box-sizing: content-box | border-box;
 ```
 
-![box-sizing](圖片\box-sizing.png)
+![box-sizing](圖片/box-sizing.png)
 
 ----
 

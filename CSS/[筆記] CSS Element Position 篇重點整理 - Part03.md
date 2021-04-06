@@ -6,7 +6,7 @@
 
 ----
 
-#### [Block-level and Inline-level](https://stackblitz.com/edit/display-element-features?file=src%2Fapp%2Fapp.component.html)
+#### [Block-level and Inline-level](https://stackblitz.com/edit/display-element-features?file=src%2Fapp%2Fapp.component.html) :link:
 
 每個 html element 都有預設的 `display` 屬性，用來決定 elemtent 的顯示樣式，預設的 display 值通常為 block 和inline 兩種，預設為 block 屬性的 element 也被稱為 block-level element，以此類推，預設為 inline 的 element 被稱為 inline-level element，以下敘述兩者差別。
 
@@ -16,14 +16,14 @@ Block-level :
 * 在預設的情況下，所佔的長度為全寬。
 * 本身自帶 top、bottom margin值，inline-level 沒有。
 
-![display-block](圖片\display-block.png)
+![display-block](圖片/display-block.png)
 
 Inline-level : 
 
 * 瀏覽器呈現時，不會在新的一行被呈現。
 * **所佔的長度為自身所需的長度，無法設定寬高 ( width、height )**。
 
-![display-inline](圖片\display-inline.png)
+![display-inline](圖片/display-inline.png)
 
 簡單來說，block 屬性的 element 像  `<div>`、`<h1>-<h6>`、`<table>` 等，在瀏覽器呈現的時候，會自己佔據一行，左右兩邊不會有其他 element，而且因為自帶 top、bottom margin 值，所以對上下 element 有一定距離。
 
@@ -33,7 +33,7 @@ Inline-level :
 
 ----
 
-#### [inline-block](https://stackblitz.com/edit/display-element-features?file=src%2Fapp%2Fapp.component.html)
+#### [inline-block](https://stackblitz.com/edit/display-element-features?file=src%2Fapp%2Fapp.component.html) :link:
 
 呈上 `display` 屬性除了預設的 block 、inline ，還有 inline-block，inline-block 結合了 inline 可以並排的特性，和 block 可以改變長寬的特性，讓 element 可以設定自訂的長寬，也不會被自動站一行 (注意 : 如果設定的寬度大於瀏覽器的全寬，還是會換行的喔 !!)。
 
@@ -46,7 +46,7 @@ Inline-level :
 
 ----
 
-#### [Position](https://stackblitz.com/edit/angular-ivy-m9tymk)
+#### [Position](https://stackblitz.com/edit/angular-ivy-m9tymk) :link:
 
 * static : 為 position 預設值，不需要特別設定。
 * relative :  依原始位置，設定 "新位置" 位移屬性( top、bottom、left、right )的值。
